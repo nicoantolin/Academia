@@ -114,6 +114,7 @@ h6 { font-size:18px; line-height:23px}
 .title-extra-large-8{ font-size:100px !important; line-height:100px;}
 .title-extra-large-9{ font-size:110px !important; line-height:100px;}
 .title-big { font-size: 90px !important; line-height:95px;}
+.title-big #felicidad{ font-size: 90px !important; line-height:95px;}
 .title-extra-big { font-size: 150px !important; line-height:160px;}
 .title-extra-big-2 { font-size: 160px !important; line-height:160px;}
 .title-extra-big-3 { font-size: 180px !important; line-height:180px;}
@@ -1094,6 +1095,7 @@ section {border-bottom:1px solid #ececec}
 .width-85 { width:85% !important;}
 .width-90 { width:90% !important;}
 .width-95 { width:95% !important;}
+#academia1 {text-align: justify;}
 .width-100 { width:100% !important;}
 .width-auto { width: auto !important}
 

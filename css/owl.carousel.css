@@ -53,6 +53,7 @@
 }
 .owl-controls .owl-page,
 .owl-controls .owl-buttons div{
+	display: none;
 	cursor: pointer;
 }
 .owl-controls {
