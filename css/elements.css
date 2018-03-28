@@ -38,7 +38,7 @@ Table of Contents
 ====================================== */
 
 .navbar {padding: 20px 0 20px; z-index: 999; width: 100%; border-radius: 0; border: 0;}
-.navbar img {max-height:35px}
+.navbar img {max-height:47px}
 .navbar li {margin:13px 20px;}
 .navbar li:last-child { margin-right: 0;}
 .navbar li a {font-size: 12px; padding: 0;cursor: pointer !important; border-bottom: 1px solid transparent; }
