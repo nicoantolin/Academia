@@ -730,7 +730,7 @@ h6 { font-size:18px; line-height:23px}
 .padding-one-half{padding:0.5% !important}
 .padding-one{padding:1% !important}
 .padding-two{padding:1.5% !important}
-.padding-three{padding:2% !important}
+.padding-three{padding:1.93% !important}
 .padding-four{padding:2.5% !important}
 .padding-five{padding:3% !important}
 .padding-six{padding:3.5% !important}
@@ -1448,6 +1448,16 @@ tr, td {
     font-weight: 600;
 }
 
+#clasesOPT1{
+    background: #f9f4b8;
+    color: #ffffff; f7e3a8
+}
+
+#clasesOPT2{
+    background: #f7e3a8;
+    color: #ffffff; 
+}
+
 .footer-logo{
     height: 60px !important;
 }
@@ -1462,4 +1472,10 @@ tr, td {
 
 #objetoClase{
     height: 390px;
+}
+
+#ZyFTexto{
+    background: rgba(240,240,240,1);
+    padding: 6%;
+    padding-top: 4%;
 }
