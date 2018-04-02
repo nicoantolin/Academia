@@ -3,9 +3,12 @@
     .outside-arrow-simple .owl-buttons .owl-prev {left:-10px;}
     .outside-arrow .owl-buttons .owl-prev{left: 0;}
     .outside-arrow .owl-buttons .owl-next{right: 0;}
+
+    /*ESCONDER DIV RESPONSIVE PRECIOS*/
+    #movilVer{display: none;}
 }
 
-@media (max-width: 1199px) {
+
     /* blog*/
     .blog-style2 figure {padding: 70px 40px 0;}
 
@@ -628,6 +631,8 @@
     footer ul.links-inline li:first-child a {
         margin-left: 0;
     }
+    /*ESCONDER DIV RESPONSIVE PRECIOS*/
+    #PreciosAcademiaMovil{display: none;}
 }
 
 @media (max-width: 1050px) {
@@ -644,6 +649,10 @@
     .one-fourth-screen {height: 600px;}
     .one-fifth-screen {height: 700px;}
     .one-sixth-screen {height: 800px;}
+    .sm-title-extra-large-4{ font-size:60px !important; line-height:68px !important;}
+    .sm-padding-sixteen{ padding:8.5% !important}
+    /*ESCONDER DIV RESPONSIVE PRECIOS*/
+    #PreciosAcademiaMovil{display: none;}
 }
 
 @media (max-width: 991px) {
@@ -1470,12 +1479,16 @@
     /* header style 7 */
     .event-counter .counter-box { height: 120px; width: 120px; padding: 24px 0; margin-right: 20px;}
     .event-counter .counter-box .number { font-size: 40px; line-height: 45px; }
+
+    /*ESCONDER DIV RESPONSIVE PRECIOS*/
+    #PreciosAcademiaMovil{display: none;}
 }
 
 @media (max-width: 767px) {
     h3 {font-size:23px; line-height:28px;}
     /* Heading */
     h1{ font-size: 25px !important; line-height: 30px;}
+    
 
     /* center col */
     .xs-center-col{ float:none !important; margin-left:auto !important; margin-right:auto !important}
@@ -2412,7 +2425,13 @@
     
     /* price box 7 */
     .pricing-box-style7 li, .pricing-box-style7 li:first-child, .pricing-box-style7 li, .pricing-box-style7 li:first-child, .pricing-box-style7 li:last-child  { height: auto; padding: 30px 15px; }
+    
 
+    /*esconder tabla precios para reemplazarla por xs*/
+    #precios{display:none;}
+
+    /*MOSTRAR DIV RESPONSIVE PRECIOS*/
+    #PreciosAcademiaMovil{display: inline;}
 }
 
 @media (max-width: 640px) {
@@ -2507,6 +2526,10 @@
     .xs-bg-white {background: #fff;}
 }
 
+
+
+
+
 @media (max-width: 419px) {
     /* header */
     .header-style5 .social a { margin: 0 4px;}
@@ -2526,6 +2549,12 @@
 @media screen and (max-width: 320px) {
      /*  navigation  */
     .shrink-nav .navbar-collapse { max-height: 420px; }
+    .owl-carousel .owl-wrapper-outer{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 }
 
 @media screen and  (orientation : landscape) {

@@ -56,6 +56,9 @@ select::-ms-expand{ display:none;}
 iframe { border: 0;}
 iframe, embed, object { max-width: 100%; }
 iframe{ border-width: 0px; }
+ol, ul {
+    list-style: none;
+}
 ul.circle {list-style-type: circle;}
 ul.square {list-style-type: square;}
 ol.upper-roman {list-style-type: upper-roman;}
@@ -365,6 +368,8 @@ h6 { font-size:18px; line-height:23px}
 .bg-golden-yellow{background: #ecce63;}
 .bg-purple{background: #221825;}
 .bg-dark-slate-blue{background: #353d4f;}
+#precioSilver{background: #9fa0a2;}
+#precioSGolden{background: #ecc313;}
 .bg-bitter-sweet{background: #f3605c;}
 .bg-scarlet-gum{background: #432a4b;}
 .bg-orange{background: #ef5037;}
@@ -982,7 +987,7 @@ h6 { font-size:18px; line-height:23px}
 /* section */
 .center-col { float: none !important; margin-left: auto !important; margin-right: auto !important;}
 .clear-both{ clear:both}
-section {border-bottom:1px solid #ececec}
+section {border-bottom:0px solid #ececec}
 
 /* separator */
 .separator-line { height: 1px; width: 68px;}
@@ -1425,49 +1430,93 @@ text-align: center;
 }
 
 .horario-tabla{
-    border: 1px solid #000000 !important;
-    border-radius: 10px;
+    border: 1px solid ##EAEAEA !important;
+    
 }
 
 tr, td {
-    border: 1px solid #000000 !important;
+    border: 1px solid #EAEAEA !important;
     padding: 5px;
+    height: 50px;
 }
+tr, td p{
+    margin: 0px;
+    font-size: 18px;
+    margin: 5px;
+
+}      
 
 
 
 #dias{
-    background: #097779;
-    color: #ffffff;
-    font-weight: 600;
+    color: #222222;
+    /*font-weight: 600;*/
+    font-size: initial;
+    font-family: 'Open Sans';
 }
 
 #hora{
-    background: #0da9af;
-    color: #ffffff;
-    font-weight: 600;
+    /*font-weight: 600;*/
+    color: #222222;
+    font-size: initial;
+    font-family: 'Open Sans';
 }
 
+
+.clase{
+    text-shadow: 0.1px 0.1px #000000;
+
+    text-align: center;
+}
 #clasesOPT1{
-    background: #f9f4b8;
-    color: #ffffff; f7e3a8
+    background: #618DA1;
+    color: #ffffff; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 #clasesOPT2{
-    background: #f7e3a8;
+    background: #f7b36a  ;
     color: #ffffff; 
+    
 }
-
+#clasesOPT3{
+    background: #443453 ;
+    color: #ffffff; 
+    
+}
+#clasesOPT4{
+    background: #5aaa82 ;
+    color: #ffffff; 
+    
+}
+#clasesOPT5{
+    background: #becf74 ;
+    color: #ffffff; 
+    
+}
+#clasesOPT6{
+    background: #b3001b ;
+    color: #ffffff; 
+    
+}
+#clasesOPT7{
+    background: #284b63 ;
+    color: #ffffff; 
+    
+}
+#clasesOPT8{
+    background: #edd892 ;
+    color: #ffffff; 
+    
+}
+}
 .footer-logo{
     height: 60px !important;
 }
 
 .footer{
     background-color: rgb(24, 24, 23) !important;
-}
-
-#flechaRoja{
-    width: 4%
 }
 
 #objetoClase{
@@ -1479,3 +1528,72 @@ tr, td {
     padding: 6%;
     padding-top: 4%;
 }
+#iconGemaS{
+    font-size: 52px;
+    vertical-align: -moz-middle-with-baseline;
+    color: #818892;
+}
+#iconGemaG{
+    font-size: 52px;
+    vertical-align: -moz-middle-with-baseline;
+    color: #ecc313;
+}
+#iconListaPrecio{
+    font-size: 43px;
+    color: #000000;
+}
+
+
+/*seccion precios responsive*/
+
+#seccionPreciosAcademia{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#SilverResponsive{
+    border:1px solid #dedede;
+    background: #9fa0a2;
+    vertical-align: middle;
+    font-family: 'Open Sans';
+    height: 70px;
+
+
+    
+}
+#SilverResponsive h3{
+   color: white;
+   margin-top: 19px;
+   font-size: xx-large;
+
+}
+#clasePrecioResponse{
+    border:1px solid #dedede;
+    font-family: 'Open Sans';
+    height: 60px;
+}
+
+#clasePrecioResponse p{
+    font-size: 16px;
+    margin-top: 18px;
+    color: #000000;
+}
+
+#GoldenResponsive{
+    border:1px solid #dedede;
+    background: #ecc313;
+    vertical-align: middle;
+    font-family: 'Open Sans';
+    height: 70px;   
+}
+#goldenMovil{
+    padding-top: 45px;
+}
+
+#GoldenResponsive h3{
+   color: white;
+   margin-top: 19px;
+   font-size: xx-large;
+
+}
+
