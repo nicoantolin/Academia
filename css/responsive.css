@@ -1,11 +1,15 @@
-@media (max-width: 1300px) {
+
+
+
+@media (max-width: 1301px) {
     .outside-arrow-simple .owl-buttons .owl-next {right:-10px;}
     .outside-arrow-simple .owl-buttons .owl-prev {left:-10px;}
     .outside-arrow .owl-buttons .owl-prev{left: 0;}
     .outside-arrow .owl-buttons .owl-next{right: 0;}
-
+    .lg-margin-left:{margin-left:150px;}
     /*ESCONDER DIV RESPONSIVE PRECIOS*/
     #movilVer{display: none;}
+    #horarioMovil{display: none}
 }
 
 
@@ -633,9 +637,10 @@
     }
     /*ESCONDER DIV RESPONSIVE PRECIOS*/
     #PreciosAcademiaMovil{display: none;}
+    #horarioMovil{display: none}
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1300px) {
 
     /* agency */
     .header-style8 .navbar { padding: 20px;}
@@ -653,6 +658,7 @@
     .sm-padding-sixteen{ padding:8.5% !important}
     /*ESCONDER DIV RESPONSIVE PRECIOS*/
     #PreciosAcademiaMovil{display: none;}
+    #horarioMovil{display: none}
 }
 
 @media (max-width: 991px) {
@@ -1482,6 +1488,7 @@
 
     /*ESCONDER DIV RESPONSIVE PRECIOS*/
     #PreciosAcademiaMovil{display: none;}
+    #horarioMovil{display: none}
 }
 
 @media (max-width: 767px) {
@@ -2429,9 +2436,11 @@
 
     /*esconder tabla precios para reemplazarla por xs*/
     #precios{display:none;}
+    #containerHorario{display: none;}
 
     /*MOSTRAR DIV RESPONSIVE PRECIOS*/
     #PreciosAcademiaMovil{display: inline;}
+    #horarioMovil{display: inline}
 }
 
 @media (max-width: 640px) {
@@ -2562,3 +2571,4 @@
     .shrink-nav .navbar-collapse { max-height: 270px; }
     .shrink-medium-header.shrink-nav .navbar-collapse { max-height: 200px; }
 }
+

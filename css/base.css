@@ -117,7 +117,9 @@ h6 { font-size:18px; line-height:23px}
 .title-extra-large-8{ font-size:100px !important; line-height:100px;}
 .title-extra-large-9{ font-size:110px !important; line-height:100px;}
 .title-big { font-size: 90px !important; line-height:95px;}
-.title-big #felicidad{ font-size: 90px !important; line-height:95px;}
+.title-big-felicidad{ font-size: 59px !important; line-height:95px;}
+.title-big-pasion{ font-size: 59px !important; line-height:95px;}
+.title-big-sueños{ font-size: 75px !important; line-height:95px;}
 .title-extra-big { font-size: 150px !important; line-height:160px;}
 .title-extra-big-2 { font-size: 160px !important; line-height:160px;}
 .title-extra-big-3 { font-size: 180px !important; line-height:180px;}
@@ -1596,4 +1598,184 @@ tr, td p{
    font-size: xx-large;
 
 }
+
+
+
+/*HORARIO*/
+
+
+
+
+.contenedorHorario{
+    width: 100%;
+    
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+
+    flex-direction: row;
+    flex-wrap:nowrap;
+
+
+}
+
+.cajaHorario{
+    color:black;
+    width: 166px;
+    height: 100px;
+    background:#ffffff;
+    text-align: center;
+    border: 1px solid #dedede;
+    
+}
+#cajaVacia{
+    border: 1px solid #dedede;
+}
+
+#cajaDias{
+    background: #6D6D6D;    
+
+    border: 1px solid #dedede;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cajaDias p{
+    color: #ffffff;
+    font-size: 31px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    margin: 0;
+    font-size: x-large;
+
+
+}
+
+#cajaHora{
+    border: 1px solid #dedede;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cajaHora p{
+    margin: 0;
+    font-size: initial;
+
+}
+
+#cajaClase{
+    
+    
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+}
+#cajaClase:hover{
+    border:1px solid #000000;
+    color: #f0c808;
+    background:rgba(183, 42, 42, 1);
+    
+    
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+
+}
+#cajaClase p{
+    margin: 0;
+    font-size: inherit;
+    padding: 3px;
+}
+
+
+
+
+#rowHorario{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#cajaEsquina{
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+}
+
+
+/*HORARIO RESPONSIVE*/
+#cajasResponsiveDias{
+    padding:  20px 0 20px 0;
+}
+
+#horariosAcademia{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#diaResponsive{
+    font-size: large;
+}
+
+#LunesResponsive{
+    margin-bottom: 30px;
+    height: 100%;
+    border-radius: 10px;
+    border:1px solid black;
+    font-family: 'Open Sans';
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#LunesResponsive h3{
+    padding-top: 7px;
+}
+
+#horaResponsive{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#horaResponsive{
+    margin: 20px 0 20px 0;
+}
+
+#diaResponsive{
+
+    text-align: left;
+    font-family: 'Open Sans';
+}
+#diaResponsive h3{
+    padding-top: 25px;
+}
+#horaR2{
+    color: black;
+    font-size: 14px;
+}
+
 
