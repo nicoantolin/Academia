@@ -370,8 +370,8 @@ h6 { font-size:18px; line-height:23px}
 .bg-golden-yellow{background: #ecce63;}
 .bg-purple{background: #221825;}
 .bg-dark-slate-blue{background: #353d4f;}
-#precioSilver{background: #9fa0a2;}
-#precioSGolden{background: #ecc313;}
+#precioSilver{background: #b5b5b7;}
+#precioSGolden{background: #F2B632;}
 .bg-bitter-sweet{background: #f3605c;}
 .bg-scarlet-gum{background: #432a4b;}
 .bg-orange{background: #ef5037;}
@@ -1633,9 +1633,9 @@ tr, td p{
 }
 
 #cajaDias{
-    background: #6D6D6D;    
+    background: #3b3a36;    
 
-    border: 1px solid #dedede;
+    border: .1px solid #dedede;
 
     display: flex;
     flex-direction: row;
@@ -1688,8 +1688,8 @@ tr, td p{
 }
 #cajaClase:hover{
     border:1px solid #000000;
-    color: #f0c808;
-    background:rgba(183, 42, 42, 1);
+    color: #ffffff;
+    background:#3b3a36;
     
     
 
